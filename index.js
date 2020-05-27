@@ -97,7 +97,7 @@
 
 	// Calculate ordinary tax.
 	function calculateOrdinaryTax() {
-		var inc = num(income) - 12200;
+		var inc = num(income) - 12400;
 		var ord = ordinaryTaxRates[filingStatus];
 		var keys = Object.keys(ord);
 		var bracket = 0;

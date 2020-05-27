@@ -20,12 +20,12 @@
 	var ordinaryTax = 0;
 	var payableTax = 0;
 
-	// Constants for 2019
+	// Constants for 2020
 	var exemption = {
 		'single': {
-			amount: 71700,
-			phaseout: 510300,
-			break: 194800
+			amount: 72900,
+			phaseout: 518400,
+			break: 197900
 		},
 		'married': {
 			amount: 111700,
@@ -41,12 +41,12 @@
 	var ordinaryTaxRates = {
 		'single': {
 			'10': 0,
-			'12': 9700,
-			'22': 39475,
-			'24': 84200,
-			'32': 160725,
-			'35': 204100,
-			'37': 510300
+			'12': 9875,
+			'22': 40125,
+			'24': 85525,
+			'32': 163300,
+			'35': 207350,
+			'37': 518400
 		},
 		'married': {
 			'10': 0,
